@@ -1,2 +1,2 @@
-# giphy-app
-ReactJS application that fetches images from the giphy API
+# bare-react-app
+Bare bones ReactJS boilerplate with just two production dependencies (React and React-Dom)
