@@ -28,10 +28,6 @@ npm run dev
 # Built With
 - Javascript
 - React - (UI library)
-- React Native - (Mobile Development Framework)
-- Enzyme and Jest (Testing)
-- Flow (Static Type Checking)
-- Laravel (For the backend)
 
 # Contribution
 Please read the [CONTRIBUTING.md](#) file (Soon to be added) to see how you can contribute and add more features to the project.
