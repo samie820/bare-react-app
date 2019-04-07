@@ -18,8 +18,8 @@ module.exports = {
   },
   devServer: {
     inline: true,
-    contentBase: "./dev",
-    port: 2500,
+    contentBase: "./src",
+    port: 3000,
     historyApiFallback: true
   },
   devtool: debug ? "cheap-module-eval-source-map" : false,
@@ -44,27 +44,7 @@ module.exports = {
         }
       },
       {
-        test: /\.scss/,
-        use: debug
-          ? [
-              {
-                loader: "style-loader"
-              },
-              {
-                loader: "css-loader"
-              },
-              {
-                loader: "sass-loader"
-              }
-            ]
-          : [
-              MiniCssExtractPlugin.loader,
-              "css-loader",
-              "sass-loader"
-            ]
-      },
-      {
-        test: /\.css$/,
+        test: /\.(sa|sc|c)ss$/,
         use: debug
           ? [
               {
