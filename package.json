@@ -21,8 +21,6 @@
     "@babel/preset-env": "^7.1.0",
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.4",
-    "babel-plugin-react-html-attrs": "^2.1.0",
-    "babel-polyfill": "^6.26.0",
     "circular-dependency-plugin": "^4.4.0",
     "compression-webpack-plugin": "^1.0.1",
     "copy-webpack-plugin": "^4.3.1",

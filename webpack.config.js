@@ -35,7 +35,6 @@ module.exports = {
         query: {
           presets: ["@babel/env", "@babel/preset-react"],
           plugins: [
-            "react-html-attrs",
             "@babel/plugin-proposal-class-properties",
             "@babel/plugin-syntax-dynamic-import",
             "@babel/plugin-proposal-object-rest-spread",
