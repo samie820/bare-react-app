@@ -23,8 +23,14 @@ npm install
 ```
 - Once that's done, run the project:
 ```
-npm run dev
+npm run dev or npm run dev:open
 ```
+
+- To create a production build of the project:
+```
+npm run build
+```
+
 # Built With
 - Javascript
 - React - (UI library)
